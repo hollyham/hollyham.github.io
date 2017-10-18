@@ -46,6 +46,9 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
+  background-image: url("sd_beach.JPG");
+}
+section.module.parallax-2 {
   background-image: url("https://i.imgur.com/zAN6kom.png");
 }
 /*=============
@@ -64,7 +67,7 @@ section.module.parallax-1 {
 }
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
-    font-size: 160px;
+    font-size: 100px;
   }
 }
 
