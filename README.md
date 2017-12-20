@@ -1,32 +1,32 @@
 # Project Name
-======
+
 hollyham.github.io
 
 # Description
-======
+
 Personal website
 
 # Table of Contents
-======
+
 
 # Installation
-======
+
 No installation required
 
 # Usage
-======
+
 Visit hollyham.github.io
 
 # Contributing
-======
+
 Personal project, no outside contributions
 
 # Credits
-======
+
 Holly Ham
 
 # License
-======
+
 MIT License
 
 Copyright (c) 2017 Holly Ham
