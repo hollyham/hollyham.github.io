@@ -4,7 +4,7 @@
   font-weight: 500;
 }
 :root{
-  --footer-size: 60px;
+  --footer-size: 90px;
 }
 html{
   position: relative;
@@ -137,6 +137,16 @@ footer{
   height: var(--footer-size);
   width: 100%;
   overflow: hidden;
+}
+.medialinks{
+  text-align: center;
+}
+.medialinks .blueiconcolor{
+  color: #006A96;
+  font-size: 1.5em;
+}
+.medialinks .blueiconcolor:hover{
+  color: black;
 }
 #copyright{
   text-align: center;
