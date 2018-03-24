@@ -6,30 +6,15 @@ hollyham.github.io
 
 Personal website
 
-# Table of Contents
-
-
-# Installation
-
-No installation required
-
 # Usage
 
 Visit hollyham.github.io
-
-# Contributing
-
-Personal project, no outside contributions
-
-# Credits
-
-Holly Ham
 
 # License
 
 MIT License
 
-Copyright (c) 2017 Holly Ham
+Copyright (c) 2018 Holly Ham
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
