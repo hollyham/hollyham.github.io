@@ -1,16 +1,8 @@
-# Project Name
+## Description
 
-hollyham.github.io
+Personal website. Visit https://hollyham.github.io/
 
-# Description
-
-Personal website
-
-# Usage
-
-Visit hollyham.github.io
-
-# License
+## License
 
 MIT License
 
