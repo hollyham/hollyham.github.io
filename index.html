@@ -1,55 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 
 <head>
-	<meta charset="utf-8">
-	<title>Holly Ham</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="favicon.png">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" scr="index.js"></script>
-  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <title>Holly Ham</title>
+  <!-- STYLESHEET -->
+  <link rel="stylesheet" href="static/css/style.css">
+  <!-- FAVICON-->
+  <link rel="shortcut icon" href="static/images/favicon.png">
   <!-- ICONS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
 <body>
-  <div class="container">
-    <div class="small">
-      <div class="title">
-        <h1>HOLLY HAM</h1>
-      </div>
-      <div class="content">
-        <div class="column1">
-          <h2>About</h2>
-          <div class="info">
-          Hi! My name is Holly Ham, and I am a first year Computer Science student at University of California, San Diego.  In the summer of 2015, I learned my first programming language and have been in love with coding  ever since. I am proficient in Java, familiar with C++, and have experience in front-end development. I aim to further develop my skills in the computer science field through projects and internships.
-          </div>
-          <div class="buttoncontainer">
-            <a href="Holly_Ham_Resume.pdf" target="_blank" class="button">
-            <i class="fa fa-download"></i>
-               Resume
-            </a>
-          </div>
+  <div id="splashscreen">
+    <section class="splash-container">
+      <h1>
+        <span class="title">Welcome to</span>
+        <span class="title">Holly Ham's</span>
+        <span class="title">Website</span>
+      </h1>
+    
+      <div class="enter">Enter</div>
+    </section>
+  </div>
+  <div id="home">
+    <div class="container">
+      <div class="small">
+        <div class="header">
+          <h1>HOLLY HAM</h1>
         </div>
-        <div class="column2">
-          <h2>Education</h2>
-          <div class="info">
-            <div class="date">Expected Graduation: 2021</div>
-            <div class="mainpoint">UC San Diego</div>
-            <div class="subpoint">Computer Science, B.S.</div>
+        <div class="content">
+          <div class="column1">
+            <h2>About</h2>
+            <div class="info">
+              Hi! My name is Holly Ham, and I am a first year Computer Science student at University of California, San Diego.  In the summer of 2015, I learned my first programming language and have been in love with coding  ever since. I am proficient in Java, familiar with C++, and have experience in front-end development. I aim to further develop my skills in the computer science field through projects and internships.
+            </div>
+            <div class="buttoncontainer">
+              <a href="static/Holly_Ham_Resume.pdf" target="_blank" class="button">
+                <i class="fa fa-download"></i>
+                Resume
+              </a>
+            </div>
           </div>
-          <h2>Experience</h2>
-          <div class="info">
-            <div class="date">June 2017 - August 2017</div>
-            <div class="mainpoint">Arbua Networks Intern</div>
-            <div class="subpoint">Hewlett-Packard Enterprise</div>
+          <div class="column2">
+            <h2>Education</h2>
+            <div class="info">
+              <div class="date">Expected Graduation: 2021</div>
+              <div class="mainpoint">UC San Diego</div>
+              <div class="subpoint">Computer Science, B.S.</div>
+            </div>
+            <h2>Experience</h2>
+            <div class="info">
+              <div class="date">June 2017 - August 2017</div>
+              <div class="mainpoint">Arbua Networks Intern</div>
+              <div class="subpoint">Hewlett-Packard Enterprise</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
 </body>
 
 <footer>
@@ -59,6 +71,11 @@
     <a href="mailto:hollyham.cs@gmail.com"><i class="fa fa-envelope-square blueiconcolor"></i></a>
   </div>
   <p id="copyright"></p>
-  <script src="index.js"></script>
 </footer>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js'></script>
+<script  src="static/js/script.js"></script>
+
 </html>
