@@ -24,6 +24,7 @@ function animation() {
 
 $('.enter').click(function () {
     $('#splashscreen').fadeOut(500);
+    document.getElementById('nonsplashscreen').style.display = "block";
     $('footer').fadeIn(500);
 });
 

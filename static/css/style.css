@@ -117,7 +117,6 @@ body{
 body i{
   margin-right: 0.5em;
   display: inline-block;
-  font-family: "FontAwesome"!important;
   font-weight: 900;
   font-style: normal;
   font-variant: normal;
@@ -153,7 +152,7 @@ body i{
     box-sizing: border-box;
 }
 footer{
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 0;
   height: var(--footer-size);
@@ -252,6 +251,10 @@ footer{
 }
 .title:nth-child(3) {
   color: #fff;
+}
+
+#nonsplashscreen {
+  display: none;
 }
 
 
